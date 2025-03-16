@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: linear-gradient(135deg, #84fab0, #8fd3f4);
+            animation: fadeIn 1.5s ease-in;
+        }
+        header {
+            background: linear-gradient(90deg, #56ccf2, #2f80ed);
+            color: white;
+            padding: 1em;
+            font-size: 1.5em;
+            animation: slideDown 1s ease-in-out;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: zoomIn 1s ease-in-out;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            animation: bounce 2s infinite;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            color: #2f80ed;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        a:hover {
+            color: #ff7eb3;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        About Me
+    </header>
+    
+    <section>
+        <img src="484520017_1177444600521525_4475629684310090759_n.jpg" alt="Profile Picture">
+        <h2>Christian Paul C. Espinosa</h2>
+        <p>Hello! I'm Christian Paul C. Espinosa, a student-athlete at LPSCI. I love eating, playing volleyball, and basketball.
+           This portfolio showcases my work and achievements. Feel free to explore and connect with me!</p>
+    </section>
+</body>
+</html>
